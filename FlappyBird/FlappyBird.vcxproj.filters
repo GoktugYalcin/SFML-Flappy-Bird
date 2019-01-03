@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\res\bird-01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\bird-02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\bird-03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\bird-04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\Bronze-Medal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\Game-Over-Body.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\Game-Over-Title.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\Gold-Medal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\InvisibleScoringPipe.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\land.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\PipeDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\PipeUp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\Platinum-Medal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\PlayButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\Silver-Medal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\sky.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\Splash Background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\title.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\fonts\arial.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="Resources\fonts\FlappyFont.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="Resources\fonts\Marker Felt.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\audio\Hit.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\audio\Point.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\audio\Wing.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\AssetManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\Bird.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\Flash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\GameOverState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\HUD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\Land.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\MainMenuState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\Pipe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\SplashState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\StateMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\AssetManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\Bird.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\Collision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\DEFINITIONS.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\Flash.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\Game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\GameOverState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\GameState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\HUD.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\InputManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\Land.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\MainMenuState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\Pipe.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\SplashState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\State.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\StateMachine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\Flappy-Bird-SFML-Clone-master\Code\EXTRAS\29 - Sound Effects\Highscore.txt" />
+  </ItemGroup>
+</Project>
